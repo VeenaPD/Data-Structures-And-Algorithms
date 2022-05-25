@@ -12,7 +12,34 @@ This repository consists of Beginner to Intermediate level Data structures and A
 
 ## Explaination on Data structures and algorithms
 
-Checkout [Wiki](https://github.com/VeenaPD/Data-Structures-And-Algorithms/wiki)
+## Data structures
 
+A **data structure** is a particular way of organising data in a computer so that it can be used effectively and to be processed in an efficient time and space.
 
+### Types of Data structures
+
+Data structures can be divided into two categories, they are as follows:
+1. **Primitive data structures**: Primitive data is not an object and has no methods. 
+  There are 7 primitive data types in Javascript:
+  * Number
+  * String
+  * Boolean
+  * Undefined
+  * Null
+  * Bigint
+  * Symbol
+
+2. **Non-primitive data structures**: This is further divided as follows:
+* Physical Data structures: Arrays, Linkedlist
+* Logical Data structures: Graphs, Tree, Hashing, Stack, Queue, etc
+
+## Algorithms
+
+An **Algorithm** is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.
+
+### List of Algorithms
+
+1. Greedy Algorithm
+2. Divide and Conquer
+3. Dynamic programming
 
