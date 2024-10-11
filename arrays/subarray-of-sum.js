@@ -20,7 +20,6 @@ var storeItems = [];
 function findSubarray(arr, sum) {
   for (let i = 0; i < N + 1; i++) {
     for (let j = i + 1; j < N; j++) {
-      console.log(arr[i], arr[j]);
       if (arr[i] + arr[j] == sum) {
         subArray.push(arr[i], arr[j]);
       }
@@ -29,4 +28,4 @@ function findSubarray(arr, sum) {
   return subArray;
 }
 storeItems = findSubarray(sortedArray, S);
-console.log(storeItems);
+console.log("A continuous sub-array which adds to 12 >>>", storeItems);

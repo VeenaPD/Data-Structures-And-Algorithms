@@ -34,10 +34,10 @@ function operations(num1, num2, operator) {
 }
 
 var totalValue = operations(1, 2, "add");
-console.log("Addition result is " + totalValue);
+console.log("Addition result of 1, 2 is " + totalValue);
 var totalValue = operations(1, 2, "subtract");
-console.log("Subtraction result is " + totalValue);
+console.log("Subtraction result of 1, 2 is " + totalValue);
 var totalValue = operations(1, 2, "multiply");
-console.log("Multiplication result is " + totalValue);
+console.log("Multiplication result of 1, 2 is " + totalValue);
 var totalValue = operations(1, 2, "divide");
-console.log("Division result is " + totalValue);
+console.log("Division result of 1, 2 is " + totalValue);

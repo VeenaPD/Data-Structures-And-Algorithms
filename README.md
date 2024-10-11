@@ -10,7 +10,7 @@ This repository consists of Beginner to Intermediate level Data structures and A
 - Open project in your favorite IDE
 - Open terminal type the `node filename` click enter to execute the problem. Ex: `node array-strings/reverse-string.js`
 
-## Explaination on Data structures and algorithms
+## Explanation on Data structures and algorithms
 
 ## Data structures
 

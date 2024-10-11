@@ -1,4 +1,4 @@
-// Find count accourance of Palindrome in a list
+// Find count occurrence of Palindrome in a list
 /* input: 10 121 133 155 141 252
   output: 121 141 252
   Total no. of palindrome is 3 */
@@ -15,7 +15,7 @@ function getPalindromeCount(arr) {
       palindromeCount++;
     }
   }
-  console.log(palindromeArray);
+  console.log("Palindrome arrays in [10, 121, 133, 155, 141, 252] >>>", palindromeArray);
   return palindromeCount;
 }
 

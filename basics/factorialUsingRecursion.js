@@ -14,4 +14,4 @@ function factorialUsingRecursion(n) {
 }
 
 let result = factorialUsingRecursion(n);
-console.log(result);
+console.log("Factorial of 7 >>>", result);

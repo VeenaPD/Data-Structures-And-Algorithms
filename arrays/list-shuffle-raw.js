@@ -15,4 +15,4 @@ var shuffle = function (arr) {
 };
 
 var shuffledArray = shuffle(arr);
-console.log(shuffledArray, "shuffledArray");
+console.log("Shuffled Array " + shuffledArray);

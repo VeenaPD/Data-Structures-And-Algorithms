@@ -3,6 +3,7 @@
 // output: 0, 1, 1, 2, 3, 5
 
 let n = 6;
+let fibonacciSeries = [];
 
 function fibonacciSeriesUsingRecursion(n) {
   if (n < 0) {
@@ -18,5 +19,7 @@ function fibonacciSeriesUsingRecursion(n) {
 }
 
 for (let i = 0; i < n; i++) {
-  console.log(fibonacciSeriesUsingRecursion(i));
+  fibonacciSeries.push(fibonacciSeriesUsingRecursion(i));
 }
+
+console.log("Fibonacci series for 6 using recursion >>>", fibonacciSeries);
